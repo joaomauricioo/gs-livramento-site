@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Política de Privacidade | GS Livramento</title>
+  <meta name="description" content="Política de Privacidade da GS Livramento Material de Construção." />
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+  <header class="header">
+    <div class="container header__inner">
+      <a class="brand" href="index.html">
+        <img class="brand__logo" src="assets/img/logo.png" alt="Logo GS Livramento" />
+        <div class="brand__text">
+          <strong>GS Livramento</strong>
+          <span>Material de Construção</span>
+        </div>
+      </a>
+      <nav class="nav" style="display:flex;">
+        <a href="index.html#contato" class="nav__cta">Contato</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="section">
+    <div class="container">
+      <div class="section__head">
+        <h2>Política de Privacidade</h2>
+        <p>Última atualização: <span id="date"></span></p>
+      </div>
+
+      <div class="card">
+        <p>
+          A <strong>G S Livramento Material de Construção LTDA</strong> respeita a privacidade de seus usuários e clientes.
+          As informações fornecidas por meio deste site (como nome, telefone e e-mail) são utilizadas exclusivamente para
+          fins de atendimento, contato comercial e prestação de serviços.
+        </p>
+        <p>
+          Os dados não são compartilhados com terceiros, exceto quando necessário para cumprimento de obrigações legais
+          ou operacionais. O usuário pode solicitar a alteração ou exclusão de seus dados a qualquer momento por meio
+          dos canais de contato disponíveis neste site.
+        </p>
+        <p>
+          Se houver coleta de dados via formulários, cookies ou ferramentas de análise, o usuário será informado e poderá
+          optar por não fornecer tais dados quando aplicável.
+        </p>
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__grid">
+      <div class="footer__copy">
+        <span>© <span id="year"></span> GS Livramento Material de Construção.</span>
+      </div>
+      <div class="footer__links">
+        <a href="index.html">Voltar ao site</a>
+        <a href="termos.html">Termos de Uso</a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+    document.getElementById("date").textContent = new Date().toLocaleDateString("pt-BR");
+  </script>
+</body>
+</html>

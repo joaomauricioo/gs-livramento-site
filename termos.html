@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Termos de Uso | GS Livramento</title>
+  <meta name="description" content="Termos de Uso da GS Livramento Material de Construção." />
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+  <header class="header">
+    <div class="container header__inner">
+      <a class="brand" href="index.html">
+        <img class="brand__logo" src="assets/img/logo.png" alt="Logo GS Livramento" />
+        <div class="brand__text">
+          <strong>GS Livramento</strong>
+          <span>Material de Construção</span>
+        </div>
+      </a>
+      <nav class="nav" style="display:flex;">
+        <a href="index.html#contato" class="nav__cta">Contato</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="section">
+    <div class="container">
+      <div class="section__head">
+        <h2>Termos de Uso</h2>
+        <p>Última atualização: <span id="date"></span></p>
+      </div>
+
+      <div class="card">
+        <p>
+          Ao acessar este site, o usuário concorda com os termos aqui descritos. As informações apresentadas têm caráter
+          informativo e podem ser alteradas sem aviso prévio.
+        </p>
+        <p>
+          A <strong>G S Livramento Material de Construção LTDA</strong> não se responsabiliza por usos indevidos das
+          informações disponibilizadas. É proibida a reprodução de qualquer conteúdo deste site sem autorização prévia.
+        </p>
+        <p>
+          Links para serviços externos (como WhatsApp) são fornecidos para facilitar o atendimento. O uso desses serviços
+          está sujeito às políticas e termos das respectivas plataformas.
+        </p>
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__grid">
+      <div class="footer__copy">
+        <span>© <span id="year"></span> GS Livramento Material de Construção.</span>
+      </div>
+      <div class="footer__links">
+        <a href="index.html">Voltar ao site</a>
+        <a href="privacidade.html">Política de Privacidade</a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+    document.getElementById("date").textContent = new Date().toLocaleDateString("pt-BR");
+  </script>
+</body>
+</html>
