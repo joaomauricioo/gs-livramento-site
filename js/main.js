@@ -2,7 +2,7 @@
   // ============================
   // CONFIGURAÇÃO DO WHATSAPP
   // ============================
-  const WHATS_NUMBER = "557798679047"; // +55 77 9867-9047 (somente números)
+  const WHATS_NUMBER = "557740097806"; // +55 (77) 4009-7806 (somente números)
   const WHATS_TEXT = encodeURIComponent(
     "Olá! Vim pelo site da GS Livramento e gostaria de um orçamento."
   );
